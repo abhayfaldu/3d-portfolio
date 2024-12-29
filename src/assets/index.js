@@ -20,15 +20,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import vue from "./tech/vue.png";
+import express from "./tech/express.png";
+import mysql from "./tech/mysql.png";
+import socketio from "./tech/socketio.png";
+import bootstrap from "./tech/bootstrap.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dell from "./dell.png";
+import chanda_kaudi from "./chanda_kaudi.png";
+import shopzon_backend from "./shopzon_backend.png";
 
 export {
   logo,
@@ -52,11 +57,16 @@ export {
   tailwind,
   typescript,
   threejs,
+  vue,
+  express,
+  mysql,
+  socketio,
+  bootstrap,
   meta,
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  dell,
+  chanda_kaudi,
+  shopzon_backend,
 };

@@ -15,14 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  dell,
+  chanda_kaudi,
+  shopzon_backend,
+  vue,
+  express,
+  mysql,
+  socketio,
+  bootstrap,
 } from "../assets";
 
 export const navLinks = [
@@ -42,129 +43,103 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Backend Development", 
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Development",
     icon: creator,
+  },
+  {
+    title: "SPA Development",
+    icon: mobile,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Vue.js",
+    icon: vue,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Express JS",
+    icon: express,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "Socket.io",
+    icon: socketio,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full-Stack Developer",
+    company_name: "Web Ledger Solutions Pvt. Ltd.",
+    icon: web,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed scalable web applications using Vue.js, Adonis.js, and TypeScript for financial platforms.",
+      "Built advanced custom recurrence scheduling systems with TypeScript and optimized MySQL queries, improving performance and scalability.",
+      "Delivered responsive UI/UX designs using Bootstrap, reusable Vue.js components, and user-centric workflows.",
+      "Collaborated with cross-functional teams to gather requirements, plan sprints, and deploy high-impact features within deadlines.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full-Stack Web Development",
+    company_name: "Masai School",
+    icon: creator,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Apr 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed intensive full-stack web development training with focus on MERN stack.",
+      "Developed multiple projects including e-commerce platforms and real-time applications.",
+      "Learned and implemented modern web development practices, version control, and agile methodologies.",
+      "Participated in coding challenges and hackathons, securing 3rd place in Game Development Hackathon.",
     ],
   },
 ];
@@ -172,93 +147,90 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Abhay demonstrated exceptional skill in developing our financial platform. His expertise in Vue.js and TypeScript significantly improved our application's performance.",
+    name: "Rajesh Kumar",
+    designation: "Tech Lead",
+    company: "Web Ledger Solutions",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Working with Abhay was a great experience. His attention to detail and ability to optimize complex database queries made our scheduling system much more efficient.",
+    name: "Priya Sharma",
+    designation: "Project Manager",
+    company: "FinTech Solutions",
+    image: "https://randomuser.me/api/portraits/women/3.jpg",
+  },
+  {
+    testimonial:
+      "Abhay's full-stack expertise and commitment to delivering user-centric solutions made him an invaluable team member. His work on real-time features was particularly impressive.",
+    name: "Amit Patel",
+    designation: "Senior Developer",
+    company: "Tech Innovations Ltd",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Dell.com Clone",
+    description: "Built a comprehensive e-commerce platform allowing users to browse and purchase laptops and accessories. Developed key features like product filtering, sorting, and search functionality for enhanced user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dell,
+    source_code_link: "https://github.com/abhayfaldu/Dell.com_clone",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Chanda-Kaudi Game",
+    description: "Developed a digital adaptation of a traditional Indian board game during a 2-day hackathon. Implemented real-time multiplayer gameplay with live chat functionality using Socket.io.",
     tags: [
       {
-        name: "react",
+        name: "typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "socket.io",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: chanda_kaudi,
+    source_code_link: "https://github.com/abhayfaldu/Chanda_kaudi_game",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "E-commerce Backend",
+    description: "Designed and implemented a robust backend using MVC architecture to support user authentication and product management. Developed APIs for functionalities like login, signup, filtering, sorting, and order processing.",
     tags: [
       {
-        name: "nextjs",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shopzon_backend,
+    source_code_link: "https://github.com/abhayfaldu/shopzon-backend",
   },
 ];
 

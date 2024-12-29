@@ -39,14 +39,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm thrilled to be a part of the dynamic world of web development. With
-        my expertise in the MERN stack, I have the skills to create stunning,
-        responsive websites that will capture your audience's attention. My
-        passion for web development drives me to stay up-to-date with the latest
-        trends and technologies, and I'm always eager to take on new challenges.
-        If you're looking for a hardworking, detail-oriented team player, I'd
-        love to talk to you about how I can contribute to your organization's
-        success.
+        I'm a skilled Full-Stack Developer with expertise in Vue.js, React, TypeScript, and Node.js.
+        Specializing in building scalable web applications with modern technologies like Adonis.js,
+        Express.js, and various databases including MySQL and MongoDB. I have a strong background in
+        developing financial platforms and real-time applications. I'm passionate about creating
+        efficient, user-centric solutions and collaborating with teams to deliver high-impact features.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
